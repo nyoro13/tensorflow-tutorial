@@ -95,8 +95,8 @@ def plot_value_array(i, predictions_array, true_label):
 
 # X個のテスト画像、予測されたラベル、正解ラベルを表示します。
 # 正しい予測は青で、間違った予測は赤で表示しています。
-num_rows = 15
-num_cols = 10
+num_rows = 3
+num_cols = 5
 num_images = num_rows*num_cols
 plt.figure(figsize=(2*2*num_cols, 2*num_rows))
 for i in range(num_images):
